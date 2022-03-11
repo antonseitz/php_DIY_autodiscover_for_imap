@@ -1,6 +1,12 @@
 # php_DIY_autodiscover_for_imap
 
 
+TODO
+Konto hinzufügen klappt nur über "Mail Oultook" in der Sytemsteuerung. Über Outlook direkt klappt das hinzufügen nicht, ob wohl der Konfig-Test durchgeht.
+Vielleicht nochtmal die xml abgleichen z.B. mit: 
+
+https://www.kernel-error.de/2019/10/02/outlook-autodiscover-fuer-imap-und-smtp/
+
 Hosteurope erlaubt jetzt auch den Login mit der Mailadresse!
 Aber ein Autodiscovery für IMAP gibt es nicht.
 
