@@ -1,4 +1,4 @@
-# php_DYIY_autodiscover_for_imap
+# php_DIY_autodiscover_for_imap
 
 
 Hosteurope erlaubt jetzt auch den Login mit der Mailadresse!
@@ -10,19 +10,23 @@ Mit diesen php files kann man es sich bauen.
 Wir nutzen die Methode:
 https://autodiscover.domain.de/autodiscover/autodiscover.xml
 
-
 Bedingung:
 
 - Subdomain autodiscover.domain.de einrichten auf ein beliebiges Verzeichnis
+
 - diese Subdomain muss ein gültiges Zertifikat haben
+
 - in dem Verzeichnis einen Ordner "autodiscover" erstellen und dort die files:
-.htaccess
+
+.htaccess (die htaccess im Repo in .htaccess umbenennen)
 index.php
 config.php
 autodiscover.php
 autoconfig.php
 
-reinkopieren. config.php evtl. anpassen !
+reinkopieren. 
+
+- config.php mit den eigenen Imap und SMTP Servern anpassen !
 
 - testweise im Browser die URL: 
 https://autodiscover.domain.de/autodiscover/autodiscover.xml
@@ -42,11 +46,12 @@ This XML file does not appear to have any style information associated with it. 
 </Response>
 </Autodiscover>
 ```
-ist alles OK. Der FEhler kommt, weil keine POST Daten (email) geschickt wurden.
+ist alles OK. Der Fehler kommt, weil keine POST Daten (email) geschickt wurden.
 
 Dann Test mit Outlook "Email Konfiguration testen"
-
 Mit email und pwd sollte jetzt ein XML zurück geliefert werden.
+
+Dann sollte eine Konteneinrichtung mit Outlook und Thunderbird nur mit Mailadresse und PWD klappen! 
 
 
 
