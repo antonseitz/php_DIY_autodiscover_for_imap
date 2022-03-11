@@ -1,9 +1,6 @@
 <?php header("Content-Type: application/xml"); 
 echo "<?xml version=\"1.0\" encoding=\"utf-8\" ?>";
-echo "<Autodiscover xmlns=\"http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006\"";
-echo "xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"" ;
-echo" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\""; 
-echo ">";
+echo "<Autodiscover xmlns=\"http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006\">";
     $data = file_get_contents("php://input");
  
     /* error handling */
