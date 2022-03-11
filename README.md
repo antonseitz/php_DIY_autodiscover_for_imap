@@ -12,7 +12,7 @@ https://autodiscover.domain.de/autodiscover/autodiscover.xml
 
 Bedingung:
 
--[ ] Subdomain autodiscover.domain.de einrichten auf ein beliebiges Verzeichnis
+- [ ] Subdomain autodiscover.domain.de einrichten auf ein beliebiges Verzeichnis
 
 - diese Subdomain muss ein gültiges Zertifikat haben
 
