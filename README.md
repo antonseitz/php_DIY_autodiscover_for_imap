@@ -29,6 +29,7 @@ https://autodiscover.domain.de/autodiscover/autodiscover.xml
 aufrufen.
 
 Wenn das kommt:
+```
 This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <pre>
 <Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
@@ -40,7 +41,7 @@ This XML file does not appear to have any style information associated with it. 
 </Error>
 </Response>
 </Autodiscover>
-</pre>
+</pre>```
 ist alles OK. Der FEhler kommt, weil keine POST Daten (email) geschickt wurden.
 
 Dann Test mit Outlook "Email Konfiguration testen"
