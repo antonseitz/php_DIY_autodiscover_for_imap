@@ -53,5 +53,5 @@ Mit email und pwd sollte jetzt ein XML zurück geliefert werden.
 
 - Dann sollte eine Konteneinrichtung mit Outlook und Thunderbird nur mit Mailadresse und PWD klappen! 
 
-
+**ACHTUNG: Manchmal geht ein hinzufügen aus Outlook nicht, aber über die Systemeinstellung->Mail-Konten schon !!!**
 
